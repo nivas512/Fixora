@@ -22,9 +22,9 @@ const handleSubmit=(Event)=>{
     Event.preventDefault();
 
 
-console.log("login",formData)   
-alert("login successfully")
-navigate("/dashboard",{state:formData})
+//console.log("login",formData)   
+//alert("login successfully")
+//navigate("/dashboard",{state:formData})
 }
  return (
        <div>
