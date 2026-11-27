@@ -22,16 +22,16 @@ const handleSubmit=(Event)=>{
     Event.preventDefault();
 
 
-//console.log("login",formData)   
-//alert("login successfully")
-//navigate("/dashboard",{state:formData})
+console.log("login",formData)   
+alert("login successfully")
+navigate("/dashboard",{state:formData})
 }
  return (
        <div>
         <h1>Customer Login</h1>
     <br></br>
     <br></br>
-        <h2>Electronics Repair Management System</h2>
+      <h2>Electronics Repair Management System</h2>
     <br></br>
         <form onSubmit={handleSubmit}>
         <label>Name: </label>
